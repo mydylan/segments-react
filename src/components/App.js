@@ -2,8 +2,8 @@ require('normalize.css/normalize.css');
 require('styles/App.css');
 
 import React from 'react';
-import Header from './HeaderComponent';
-import Footer from './FooterComponent';
+import Header from './header/HeaderComponent';
+import Main from './main/MainComponent';
 
 
 class AppComponent extends React.Component {
@@ -11,7 +11,7 @@ class AppComponent extends React.Component {
     return (
       <div className="index">
         <Header/>
-        <Footer/>
+        <Main/>
       </div>
     );
   }

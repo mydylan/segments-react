@@ -1,6 +1,7 @@
 'use strict';
 
 import React from 'react';
+import Tabs from './navigation/TabsComponent';
 
 require('styles//Header.sass');
 
@@ -8,7 +9,10 @@ class HeaderComponent extends React.Component {
   render() {
     return (
       <div className="header-component">
-        Please edit src/components///HeaderComponent.js to update this component!
+        <div className="logo">
+          <img src="images/logo.png"></img>
+        </div>
+        <Tabs/>
       </div>
     );
   }

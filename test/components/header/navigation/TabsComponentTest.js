@@ -7,16 +7,16 @@
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
 
-import FooterComponent from 'components//FooterComponent.js';
+import TabsComponent from 'components/header/navigation/TabsComponent.js';
 
-describe('FooterComponent', () => {
+describe('TabsComponent', () => {
   let component;
 
   beforeEach(() => {
-    component = createComponent(FooterComponent);
+    component = createComponent(TabsComponent);
   });
 
   it('should have its component name as default className', () => {
-    expect(component.props.className).to.equal('footer-component');
+    expect(component.props.className).to.equal('tabs-component');
   });
 });

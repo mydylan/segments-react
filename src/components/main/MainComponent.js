@@ -8,7 +8,7 @@ class MainComponent extends React.Component {
   render() {
     return (
       <div className="main-component">
-        Please edit src/components///MainComponent.js to update this component!
+        <h1>MAIN</h1>
       </div>
     );
   }
