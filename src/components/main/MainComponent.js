@@ -2,19 +2,19 @@
 
 import React from 'react';
 
-require('styles//Main.sass');
+require('styles/main/Main.sass');
 
 class MainComponent extends React.Component {
   render() {
     return (
       <div className="main-component">
-        <h1>MAIN</h1>
+        <h1>Segments</h1>
       </div>
     );
   }
 }
 
-MainComponent.displayName = 'MainComponent';
+MainComponent.displayName = 'MainMainComponent';
 
 // Uncomment properties you need
 // MainComponent.propTypes = {};

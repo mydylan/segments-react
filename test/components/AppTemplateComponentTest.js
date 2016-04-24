@@ -7,16 +7,16 @@
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
 
-import MainComponent from 'components//MainComponent.js';
+import AppTemplateComponent from 'components//AppTemplateComponent.js';
 
-describe('MainComponent', () => {
+describe('AppTemplateComponent', () => {
   let component;
 
   beforeEach(() => {
-    component = createComponent(MainComponent);
+    component = createComponent(AppTemplateComponent);
   });
 
   it('should have its component name as default className', () => {
-    expect(component.props.className).to.equal('main-component');
+    expect(component.props.className).to.equal('apptemplate-component');
   });
 });

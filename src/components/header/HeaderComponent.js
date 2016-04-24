@@ -1,17 +1,17 @@
 'use strict';
 
 import React from 'react';
+import Logo from './logo/LogoComponent';
 import Tabs from './navigation/TabsComponent';
 
-require('styles//Header.sass');
+
+require('styles/header/Header.sass');
 
 class HeaderComponent extends React.Component {
   render() {
     return (
       <div className="header-component">
-        <div className="logo">
-          <img src="images/logo.png"></img>
-        </div>
+        <Logo/>
         <Tabs/>
       </div>
     );
