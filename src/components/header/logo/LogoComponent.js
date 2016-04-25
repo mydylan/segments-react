@@ -11,11 +11,9 @@ class LogoComponent extends React.Component {
   render() {
     return (
       <div className="logo-component">
-        <div className="logo">
-          <Link href="/">
-            <img src="images/logo.png"></img>
-          </Link>
-        </div>
+        <Link href="/">
+          <img src="images/logo.png"></img>
+        </Link>
       </div>
     );
   }
